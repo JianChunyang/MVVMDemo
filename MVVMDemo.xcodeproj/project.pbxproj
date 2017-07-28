@@ -14,6 +14,7 @@
 		34CA62C81F2B3C82001814A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34CA62C61F2B3C82001814A3 /* LaunchScreen.storyboard */; };
 		34CA62D31F2B3C82001814A3 /* MVVMDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34CA62D21F2B3C82001814A3 /* MVVMDemoTests.m */; };
 		34CA62DE1F2B3C82001814A3 /* MVVMDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34CA62DD1F2B3C82001814A3 /* MVVMDemoUITests.m */; };
+		34CA62EE1F2B415E001814A3 /* YJCHttpClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 34CA62ED1F2B415E001814A3 /* YJCHttpClient.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,8 @@
 		34CA62D91F2B3C82001814A3 /* MVVMDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MVVMDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		34CA62DD1F2B3C82001814A3 /* MVVMDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVVMDemoUITests.m; sourceTree = "<group>"; };
 		34CA62DF1F2B3C82001814A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34CA62EC1F2B415E001814A3 /* YJCHttpClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJCHttpClient.h; sourceTree = "<group>"; };
+		34CA62ED1F2B415E001814A3 /* YJCHttpClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJCHttpClient.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +144,8 @@
 		34CA62EB1F2B3EF1001814A3 /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				34CA62EC1F2B415E001814A3 /* YJCHttpClient.h */,
+				34CA62ED1F2B415E001814A3 /* YJCHttpClient.m */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -280,6 +285,7 @@
 				34CA62C01F2B3C82001814A3 /* RootViewController.m in Sources */,
 				34CA62BD1F2B3C82001814A3 /* AppDelegate.m in Sources */,
 				34CA62BA1F2B3C82001814A3 /* main.m in Sources */,
+				34CA62EE1F2B415E001814A3 /* YJCHttpClient.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
